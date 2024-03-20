@@ -1,0 +1,16 @@
+{
+    "theme_color": "#f69435",
+    "background_color": "#f69435",
+    "display": "fullscreen",
+    "scope": "/",
+    "start_url": "/htmlsite/",
+    "short_name": "próba",
+    "name": "blog o ledach",
+    "icons": [
+        {
+            "src": "./5210074_game_intertainment_pacman_icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

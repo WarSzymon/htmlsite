@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(#808080, #A9A9A9);
+}
+
+header {
+    text-align: center;
+    max-width: 512px;
+    padding: 20px;
+    box-sizing: border-box;
+    background: linear-gradient(#A9A9A9, #808080);
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.content {
+    text-align: center;
+    max-width: 512px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.box {
+    background: #808080;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    max-width: 512px;
+    padding: 20px;
+    box-sizing: border-box;
+    background: linear-gradient(#808080, #A9A9A9);
+}
+
+@media only screen and (max-width: 512px) {
+
+    header,
+    .content,
+    footer {
+        width: 100%;
+    }
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    /* Zmieniamy szerokość obrazka */
+    height: auto;
+    /* Wysokość obrazka dostosowuje się automatycznie, aby zachować proporcje */
+}
